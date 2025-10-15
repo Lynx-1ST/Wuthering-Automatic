@@ -15,8 +15,7 @@
 
 ### Tài liệu tiếng Việt | [中文说明 (Tiếng Trung)](README.md) | [English (Tiếng Anh)](README_en.md) 
 
-![img.png](readme/img.png)
-![img\_1.png](readme/img_1.png)
+![img.png](readme/img.png) ![img_1.png](readme/img_1.png)
 
 ---
 
