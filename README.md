@@ -116,7 +116,7 @@ Các bản bị rao bán có thể chứa **mã độc, virus hoặc đánh cắ
 
 ## 🙌 **Cảm ơn**
 
-Cảm ơn dự án gốc: [https://github.com/lazydog28/mc_auto_boss](https://github.com/lazydog28/mc_auto_boss)
-Dịch bởi: Lynx_1ST
+* Cảm ơn dự án gốc: [https://github.com/lazydog28/mc_auto_boss](https://github.com/lazydog28/mc_auto_boss)
+* Dịch bởi: Lynx_1ST
 ---
 hình ảnh.
