@@ -1,5 +1,4 @@
 ---
-
 <div align="center">
   <h1 align="center">
     <img src="icon.png" width="200"/>
@@ -121,7 +120,4 @@ Các bản bị rao bán có thể chứa **mã độc, virus hoặc đánh cắ
 Cảm ơn dự án gốc: [https://github.com/lazydog28/mc_auto_boss](https://github.com/lazydog28/mc_auto_boss)
 
 ---
-
-> **Tóm lại:**
-> “ok-ww” là công cụ mã nguồn mở giúp tự động hóa thao tác trong *Wuthering Waves* bằng **Python và thị giác máy tính (computer vision)**.
-> Dự án này **miễn phí, phi thương mại, minh bạch** và phục vụ mục tiêu học tập, nghiên cứu kỹ thuật tự động hóa và nhận dạng hình ảnh.
+hình ảnh.
