@@ -1,111 +1,127 @@
+---
+
 <div align="center">
   <h1 align="center">
     <img src="icon.png" width="200"/>
     <br/>
-    ok-ww
+      ok-ww
   </h1> 
-<h3><i>基于图像识别的鸣潮自动化, 使用windows接口模拟用户点击, 无读取游戏内存或侵入修改游戏文件/数据.</i></h3>
+<h3><i>Tự động hóa trò chơi Wuthering Waves bằng thị giác máy tính và Win32API</i></h3>
 </div>
 
 ![Static Badge](https://img.shields.io/badge/platfrom-Windows-blue?color=blue)
 [![GitHub release (with filter)](https://img.shields.io/github/v/release/ok-oldking/ok-wuthering-waves)](https://github.com/ok-oldking/ok-wuthering-waves/releases)
 [![GitHub all releases](https://img.shields.io/github/downloads/ok-oldking/ok-wuthering-waves/total)](https://github.com/ok-oldking/ok-wuthering-waves/releases)
-[![Discord](https://img.shields.io/discord/296598043787132928?color=5865f2&label=%20Discord)](https://discord.gg/vVyCatEBgA)
+[![Discord](https://img.shields.io/discord/296598043787132928?color=5865f2\&label=%20Discord)](https://discord.gg/vVyCatEBgA)
 
-### [English Readme](README_en.md) | 中文说明
+### Tài liệu tiếng Việt | [中文说明 (Tiếng Trung)](README.md) | [English (Tiếng Anh)](README_en.md) 
 
-演示和教程 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/h6P1KWjdnB4)
+![img.png](readme/img.png)
+![img\_1.png](readme/img_1.png)
 
-# 免责声明
+---
 
-本软件是一个外部工具，旨在自动化鸣潮的游戏玩法。它仅通过现有用户界面与游戏交互，并遵守相关法律法规。该软件包旨在简化用户与游戏的交互，不会破坏游戏平衡或提供不公平优势，也不会修改任何游戏文件或代码。
+## 🧩 **Tính năng chính**
 
-本软件开源、免费，仅供个人学习交流使用，仅限于个人游戏账号，不得用于任何商业或营利性目的。开发者团队拥有本项目的最终解释权。使用本软件产生的所有问题与本项目及开发者团队无关。若您发现商家使用本软件进行代练并收费，这是商家的个人行为，本软件不授权用于代练服务，产生的问题及后果与本软件无关。本软件不授权任何人进行售卖，售卖的软件可能被加入恶意代码，导致游戏账号或电脑资料被盗，与本软件无关。
+* Hoạt động **ngay cả khi trò chơi chạy ở chế độ nền**
+* Tự động **farm Boss Echo** (Dreamless, Jue, và các boss thế giới)
+* **Một cú nhấp chuột** để hoàn thành toàn bộ **nhiệm vụ hàng ngày** và **Tacet Field**
+* **Tự động chiến đấu** trong Abyss, bản đồ thế giới, Tacet Field, v.v.
+* **Tự động bỏ qua hội thoại** trong các nhiệm vụ
+* **Tự động nhặt vật phẩm** (Echo, hoa, rương...)
+* Hỗ trợ **tất cả các ngôn ngữ trong game** (đa số tính năng đều hoạt động)
 
-请注意，根据库洛的《鸣潮》公平运营声明:
+---
 
-```
-严禁利用任何第三方工具破坏游戏体验。
-我们将严厉打击使用外挂、加速器、作弊软件、宏脚本等违规工具的行为，这些行为包括但不限于自动挂机、技能加速、无敌模式、瞬移、修改游戏数据等操作。
-一经查证，我们将视违规情况和次数，采取包括但不限于扣除违规收益、冻结或永久封禁游戏账号等措施。
-```
+## ⚙️ **Cách sử dụng (chạy từ file .exe đã biên dịch)**
 
-### 使用方法:下载绿色版7z压缩包(250M左右), 解压后双击ok-ww.exe
+* Tải tệp `ok-ww.7z` từ mục phát hành (Releases) mới nhất.
+* Giải nén và **nhấp đúp vào `ok-ww.exe`** để chạy chương trình.
 
-* [GitHub下载](https://github.com/ok-oldking/ok-wuthering-waves/releases), 免费网页直链, 不要点击下载Source Code,
-  点击下载7z压缩包
-* [Mirror酱下载渠道](https://mirrorchyan.com/zh/projects?rid=okww&source=ok-ww-readme), 国内网页直链, 下载需要购买CD-KEY,
-  已有Mirror酱CD-KEY可免费下载
-* [夸克网盘](https://pan.quark.cn/s/a1052cec4d13), 免费, 但需要注册并下载夸克网盘客户端
-* 加入QQ频道后, 讨论组下载 [https://pd.qq.com/s/djmm6l44y](https://pd.qq.com/s/djmm6l44y)
+---
 
-### 有多强?
+## 🐍 **Cách sử dụng (chạy từ mã nguồn Python)**
 
-1. 4K分辨率流畅运行,支持所有16:9分辨率,1600x900以上, 1280x720不支持是因为鸣潮bug, 它的1280x720并不是1280x720.
-   部分功能也可以在21:9等宽屏分辨率运行
-2. 可后台运行,可窗口化,可全屏,屏幕缩放比例无要求
-3. 全角色自动识别，无需配置出招表，一键运行
-4. 后台自动静音游戏
+Sử dụng **Python 3.12**, các phiên bản khác có thể không tương thích.
 
-### 出现问题请检查
-
-有问题点这里, 挨个检查再提问:
-
-1. **安装:** 安装到仅包含英文字符的目录中, 不能安装到Program Files目录下。
-2. **杀毒软件干扰:** 将下载和解压目录添加到您的杀毒软件/Windows Defender 白名单中。
-3. **显示设置:** 关闭显卡滤镜和锐化。使用默认游戏亮度并禁用在游戏上显示FPS(如小飞机)。
-4. **自定义按键绑定:** 如没有使用默认按键，请在APP设置中设置, 不在设置里的按键不支持。
-5. **版本过旧:** 确保您使用的是最新版本的 OK-WW。
-6. **性能:** 在游戏中保持稳定的 60 FPS，如果需要，降低分辨率。
-7. **游戏断线** 如果经常发现断开服务器链接的问题, 可以先打开游戏5分钟再开始玩, 或者断开后不要退出游戏, 重新登陆
-8. **进一步帮助:** 如果问题仍然存在，请提交错误报告。
-
-### Python 源码运行
-
-仅支持Python 3.12
-
-```
-#CPU版本, 使用openvino
-pip install -r requirements.txt --upgrade #install python dependencies, 更新代码后可能需要重新运行
-python main.py # run the release version
-python main_debug.py # run the debug version
+```bash
+# Phiên bản chạy bằng CPU
+git clone https://github.com/ok-oldking/ok-wuthering-waves
+pip install -r requirements.txt --upgrade   # Cài các thư viện cần thiết, có thể phải chạy lại sau khi cập nhật mã nguồn
+python main.py          # Chạy bản phát hành chính
+python main_debug.py    # Chạy bản debug
 ```
 
-### 命令行参数
+---
 
-```
+## 💻 **Tham số dòng lệnh**
+
+```bash
 ok-ww.exe -t 1 -e
 ```
 
-- -t 或 --task 代表启动后自动执行第几个任务, 1就是第一个, 一条龙任务
-- -e 或 --exit 加上代表如果执行完任务之后自动退出
+* `-t` hoặc `--task`: chỉ định **số nhiệm vụ** cần tự động thực hiện khi khởi động. `1` tương ứng với **nhiệm vụ đầu tiên (chạy nhanh một lần)**.
+* `-e` hoặc `--exit`: thêm tùy chọn này để chương trình **tự thoát** sau khi hoàn thành nhiệm vụ.
 
-### 加入我们
+---
 
-* 鸣潮水群 462079653 进群答案:老王同学OK
-* 群满加QQ频道 [https://pd.qq.com/s/djmm6l44y](https://pd.qq.com/s/djmm6l44y)
-* 基于[ok-script](https://github.com/ok-oldking/ok-script)开发，项目代码仅有3000行（Python），简单易维护
-* 开发指南和文档[https://github.com/ok-oldking/ok-script-boilerplate](https://github.com/ok-oldking/ok-script-boilerplate)
-* 有兴趣开发的请加开发者群926858895, 至少要能看文档, 使用源码运行, 问使用问题和提需求都会被踢
+## ⚙️ **Cài đặt cần thiết trong trò chơi**
 
+(Ảnh minh họa thiết lập được đính kèm trong README gốc.)
 
-### 相关项目
+* Đặt độ sáng, tắt HDR, các chế độ bảo vệ mắt, và dùng phím tắt mặc định.
+* Tắt hiển thị thông tin FPS hoặc GPU từ phần mềm bên thứ ba.
 
-* [ok-sra](https://github.com/Shasnow/ok-starrailassistant) 基于ok-script开发的星铁自动化
+---
 
-* [ok-genshin-impact](https://github.com/ok-oldking/ok-genshin-impact)  基于ok-script开发的原神自动化,一键日常,后台剧情 (
-  可后台,支持全游戏语言,支持全16:
-  9分辨率)
-* [ok-gf2](https://github.com/ok-oldking/ok-gf2) 少前2追放自动化,一键日常,竞技场,兵棋推演,尘烟 (支持PC版后台)
+## ❓ **Câu hỏi thường gặp (FAQ)**
 
-## 赞助商(Sponsors)
+1. **Cài đặt:** Cài vào thư mục chỉ có ký tự tiếng Anh, **KHÔNG** cài vào *Program Files*.
+2. **Chống virus:** Thêm thư mục tải và giải nén vào danh sách loại trừ của Windows Defender/Antivirus.
+3. **Hiển thị:** Tắt HDR, chế độ bảo vệ mắt, quản lý màu tự động; giữ độ sáng mặc định của game.
+4. **Phím tắt tùy chỉnh:** Nếu bạn thay đổi phím mặc định, hãy cài lại trong phần cài đặt ứng dụng.
+5. **Phiên bản cũ:** Hãy chắc rằng bạn đang dùng phiên bản mới nhất của **ok-ww**.
+6. **Hiệu năng:** Duy trì **60 FPS ổn định**, giảm độ phân giải nếu cần.
+7. **Ngắt kết nối:** Nếu bị mất kết nối, hãy mở game trước 5 phút rồi khởi chạy bot, hoặc giữ game mở và đăng nhập lại khi bị lỗi.
+8. **Hỗ trợ thêm:** Báo lỗi (bug report) trên GitHub nếu sự cố vẫn xảy ra.
 
-- EXE签名: Free code signing provided by [SignPath.io](https://signpath.io/), certificate
-  by [SignPath Foundation](https://signpath.org/)
+---
 
-### 致谢
+## ⚖️ **Tuyên bố miễn trừ trách nhiệm**
 
-* [https://github.com/lazydog28/mc_auto_boss](https://github.com/lazydog28/mc_auto_boss)
-* [https://github.com/ok-oldking/OnnxOCR](https://github.com/ok-oldking/OnnxOCR)
-* [https://github.com/zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)
-* [https://github.com/Toufool/AutoSplit](https://github.com/Toufool/AutoSplit)
+Phần mềm này là **công cụ bên ngoài** được tạo ra nhằm **tự động hóa các thao tác trong trò chơi “Wuthering Waves”**.
+Công cụ chỉ tương tác với **giao diện người dùng hiện có** và **tuân thủ các quy định, pháp luật hiện hành**.
+Mục đích chính là **đơn giản hóa thao tác cho người chơi** mà **không can thiệp, sửa đổi hay phá vỡ cân bằng trò chơi**.
+Phần mềm **không chỉnh sửa tệp hoặc mã game gốc**.
+
+Dự án là **mã nguồn mở và miễn phí**, chỉ dùng cho **mục đích học tập, nghiên cứu cá nhân**, không được phép sử dụng cho **mục đích thương mại hoặc trục lợi**.
+Nhóm phát triển giữ quyền giải thích cuối cùng.
+Mọi rủi ro hoặc hậu quả do người dùng tự chịu trách nhiệm.
+Nếu phát hiện người khác **bán hoặc sử dụng phần mềm này cho dịch vụ trả phí**, đó là hành vi cá nhân trái phép, không thuộc phạm vi dự án này.
+Các bản bị rao bán có thể chứa **mã độc, virus hoặc đánh cắp tài khoản**, nhóm phát triển **không chịu trách nhiệm** với những hậu quả đó.
+
+---
+
+## 💰 **Tài trợ**
+
+* Chứng chỉ ký mã (code signing) được cung cấp miễn phí bởi [SignPath.io](https://signpath.io/),
+  chứng chỉ được tài trợ bởi [SignPath Foundation](https://signpath.org/).
+
+---
+
+## 🔗 **Dự án liên quan**
+
+* [ok-genshin-impact](https://github.com/ok-oldking/ok-genshin-impact) – Tự động hóa Genshin Impact.
+* [ok-gf2](https://github.com/ok-oldking/ok-gf2) – Tự động hóa Girls Frontline 2 (chỉ hỗ trợ tiếng Trung giản thể).
+
+---
+
+## 🙌 **Cảm ơn**
+
+Cảm ơn dự án gốc: [https://github.com/lazydog28/mc_auto_boss](https://github.com/lazydog28/mc_auto_boss)
+
+---
+
+> **Tóm lại:**
+> “ok-ww” là công cụ mã nguồn mở giúp tự động hóa thao tác trong *Wuthering Waves* bằng **Python và thị giác máy tính (computer vision)**.
+> Dự án này **miễn phí, phi thương mại, minh bạch** và phục vụ mục tiêu học tập, nghiên cứu kỹ thuật tự động hóa và nhận dạng hình ảnh.
