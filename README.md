@@ -65,7 +65,7 @@ ok-ww.exe -t 1 -e
 
 ## ⚙️ **Cài đặt cần thiết trong trò chơi**
 
-(Ảnh minh họa thiết lập được đính kèm trong README gốc.)
+![image](https://github.com/user-attachments/assets/7d5f27b4-7b28-4471-bf7b-096dccd4ec4d) ![image](https://github.com/user-attachments/assets/66deba93-d0e7-41c0-985c-248deee9b8ff)
 
 * Đặt độ sáng, tắt HDR, các chế độ bảo vệ mắt, và dùng phím tắt mặc định.
 * Tắt hiển thị thông tin FPS hoặc GPU từ phần mềm bên thứ ba.
@@ -117,6 +117,6 @@ Các bản bị rao bán có thể chứa **mã độc, virus hoặc đánh cắ
 ## 🙌 **Cảm ơn**
 
 Cảm ơn dự án gốc: [https://github.com/lazydog28/mc_auto_boss](https://github.com/lazydog28/mc_auto_boss)
-
+Dịch bởi: Lynx_1ST
 ---
 hình ảnh.
